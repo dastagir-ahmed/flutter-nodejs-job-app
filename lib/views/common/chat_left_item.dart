@@ -2,7 +2,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:jobhubv2_0/views/common/app_style.dart';
-import 'package:jobhubv2_0/views/ui/auth/profile.dart';
 
 
 
@@ -52,9 +51,9 @@ Widget ChatLeftItem(String type, String message, String profile){
 
       ),
 
-      Positioned(
-        left: 4.w,
-        child: CircularAvata(w: 20, h: 20, image: profile)),
+      // Positioned(
+      //   left: 4.w,
+      //   child: CircularAvata(w: 20, h: 20, image: profile)),
   
     ],
   );

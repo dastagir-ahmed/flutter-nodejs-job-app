@@ -73,9 +73,10 @@ class MessagingTextController extends StatelessWidget {
                           builder: (context, chatNotifier, child) {
                             return Icon(
                           MaterialCommunityIcons.send,
-                          color: chatNotifier.isFocused
-                              ? Color(kLightBlue.value)
-                              : Color(kDarkGrey.value),
+                          // color: chatNotifier.isFocused
+                          //     ? Color(kLightBlue.value)
+                          //     : 
+                          //     Color(kDarkGrey.value),
                         ) ;
                           },
                         )),

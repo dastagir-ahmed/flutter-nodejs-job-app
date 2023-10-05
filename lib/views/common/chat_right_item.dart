@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:jobhubv2_0/views/common/app_style.dart';
-import 'package:jobhubv2_0/views/ui/auth/profile.dart';
 
 Widget ChatRightItem(String type, String message, String profile) {
   return Stack(
@@ -54,9 +53,9 @@ Widget ChatRightItem(String type, String message, String profile) {
         ),
       ),
     
-    Positioned(
-        right: 0,
-        child: CircularAvata(w: 20, h: 20, image: profile)),
+    // Positioned(
+    //     right: 0,
+    //     child: CircularAvata(w: 20, h: 20, image: profile)),
     
     ],
   );
